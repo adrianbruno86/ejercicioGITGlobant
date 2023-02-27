@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Debt_Financing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Creado a partir de historia de usuario PFTA-3291 del Sprint 4 de Care</description>
+    <externalId>false</externalId>
+    <label>Debt Financing</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

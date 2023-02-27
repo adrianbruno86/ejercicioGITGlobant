@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCP_Certa_GC__CuentaGestion_DebeTener_CPrincipal</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( 
+   OR($Profile.Name = &apos;System Administrator&apos;,$Profile.Name = 
+   &apos;Administrador del sistema&apos;), 
+   false,
+   IF(ISPICKVAL(Type,&quot;Cuenta de Gestion&quot;) &amp;&amp; ParentId == null, 
+   true, false) 
+)</errorConditionFormula>
+    <errorMessage>Las cuentas de tipo gestión deben tener una cuenta principal asociada.</errorMessage>
+</ValidationRule>

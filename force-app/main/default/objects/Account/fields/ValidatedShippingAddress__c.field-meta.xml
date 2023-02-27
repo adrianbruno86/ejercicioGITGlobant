@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidatedShippingAddress__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Validated Shipping Address</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Validated Shipping Address</inlineHelpText>
+    <label>Validated Shipping Address</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

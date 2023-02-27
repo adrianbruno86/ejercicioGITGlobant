@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClubMember__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>#MarketingTeam #Sprint08 
+Defines if the account is a Club Personal member</description>
+    <externalId>false</externalId>
+    <label>Club Member</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

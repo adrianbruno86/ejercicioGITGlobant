@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CuitType__c</fullName>
+    <description>Valid if cuit starts with 2 or 3</description>
+    <externalId>false</externalId>
+    <formula>IF(  TEXT(DocumentType__c )= &apos;CUIT&apos; &amp;&amp;  BEGINS( DocumentNumber__c , &apos;3&apos;), &apos;3X&apos;, &apos;2X&apos;)</formula>
+    <label>CuitType</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

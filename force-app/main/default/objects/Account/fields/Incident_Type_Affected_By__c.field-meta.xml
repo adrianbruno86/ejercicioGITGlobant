@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incident_Type_Affected_By__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo Incidente Afecta</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Internet (SNM)</fullName>
+                <default>false</default>
+                <label>Internet (SNM)</label>
+            </value>
+            <value>
+                <fullName>Voz (SUR)</fullName>
+                <default>false</default>
+                <label>Voz (SUR)</label>
+            </value>
+            <value>
+                <fullName>Móvil (CRM)</fullName>
+                <default>false</default>
+                <label>Móvil (CRM)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

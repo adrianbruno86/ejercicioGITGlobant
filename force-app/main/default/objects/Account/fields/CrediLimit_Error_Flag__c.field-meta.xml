@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CrediLimit_Error_Flag__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>For US PFTA - 12690 , when the S131 service fails we are updating this flag to true</description>
+    <externalId>false</externalId>
+    <label>CrediLimit Error Flag</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SA_Iterator__c</fullName>
+    <description>Iterator field to split the Accounts for the Service Processing.</description>
+    <displayFormat>{0}</displayFormat>
+    <externalId>false</externalId>
+    <label>SA_Iterator</label>
+    <trackHistory>false</trackHistory>
+    <type>AutoNumber</type>
+</CustomField>

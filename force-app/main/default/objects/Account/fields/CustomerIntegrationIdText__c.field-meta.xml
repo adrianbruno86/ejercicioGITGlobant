@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerIntegrationIdText__c</fullName>
+    <description>Converts the Customer Integration Id field into a text and fills with leading 0 to be sent to Huawei</description>
+    <externalId>false</externalId>
+    <formula>LPAD(TEXT(CustomerIntegrationId__c),11,&apos;0&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CustomerIntegrationIdText</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

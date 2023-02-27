@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCP_Certa_GC__campo_telefono_solo_puede_ser_numero</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( ISBLANK(Phone) , false, NOT(ISNUMBER( Phone )))</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>El telefono solo puede tener caracteres numericos</errorMessage>
+</ValidationRule>

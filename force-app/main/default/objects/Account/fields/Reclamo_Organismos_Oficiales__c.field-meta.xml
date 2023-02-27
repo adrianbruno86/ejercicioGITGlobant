@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reclamo_Organismos_Oficiales__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Created for Claims to official org</description>
+    <externalId>false</externalId>
+    <label>Defensa al Consumidor</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

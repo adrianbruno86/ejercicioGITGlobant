@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ta_sales_is_Dunning__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is checked, if any of the related asset on account has suspended status</description>
+    <externalId>false</externalId>
+    <label>Is Dunning?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

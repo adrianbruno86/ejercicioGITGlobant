@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Minor__c</fullName>
+    <description>#MarketingTeam #Sprint08 
+Indicates if the Age of the primary contact of the account is less than 18</description>
+    <externalId>false</externalId>
+    <formula>vlocity_cmt__PrimaryContactId__r.vlocity_cmt__Age__c &lt; 18</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Age less than 18</inlineHelpText>
+    <label>Minor</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

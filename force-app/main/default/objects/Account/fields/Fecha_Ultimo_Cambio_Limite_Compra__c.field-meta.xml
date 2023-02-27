@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_Ultimo_Cambio_Limite_Compra__c</fullName>
+    <description>Este campo guarda la última fecha y hora en que se hizo efectivo el cambio de límite de compra (el límite de compra se guarda en Account.CreditLimit__c)</description>
+    <externalId>false</externalId>
+    <label>Fecha Ultimo Cambio Limite Compra</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

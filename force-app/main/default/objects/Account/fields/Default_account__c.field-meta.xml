@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_account__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo para marcar la cuenta de facturación default del cliente en Huawei</description>
+    <externalId>false</externalId>
+    <label>Default account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

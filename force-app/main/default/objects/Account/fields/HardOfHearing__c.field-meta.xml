@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HardOfHearing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>#MarketingTeam #Sprint13
+Indicates if the account contact has audition problems</description>
+    <externalId>false</externalId>
+    <label>Hard of hearing</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

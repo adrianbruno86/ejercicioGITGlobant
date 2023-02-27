@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attributes_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(Press__c &amp;&amp; SocialPlan__c,
+Press__c &amp;&amp; TelecomEmployee__c,
+Retired__c &amp;&amp; SocialPlan__c,
+Retired__c &amp;&amp; TelecomEmployee__c,
+Retired__c &amp;&amp; Minor__c,
+Retired__c &amp;&amp; Strategic__c,
+SocialPlan__c &amp;&amp; TelecomEmployee__c,
+SocialPlan__c &amp;&amp; Minor__c,
+SocialPlan__c &amp;&amp; Strategic__c,
+TelecomExEmployee__c &amp;&amp; TelecomEmployee__c,
+TelecomExEmployee__c &amp;&amp; Minor__c,
+TelecomExEmployee__c &amp;&amp; Strategic__c,
+TelecomEmployee__c &amp;&amp; Minor__c,
+TelecomEmployee__c &amp;&amp; Strategic__c,
+Strategic__c &amp;&amp; Influencer__c)</errorConditionFormula>
+    <errorMessage>Invalid attributes combination</errorMessage>
+</ValidationRule>

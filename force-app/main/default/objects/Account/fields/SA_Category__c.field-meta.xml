@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SA_Category__c</fullName>
+    <description>Category for Service Account creation process</description>
+    <externalId>false</externalId>
+    <formula>CASE(MOD(Value(SA_Iterator__c),5), 0, &apos;C1&apos;, 1, &apos;C2&apos;, 2, &apos;C3&apos;, 3, &apos;C4&apos;, 4, &apos;C5&apos;,&apos;C6&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SA_Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

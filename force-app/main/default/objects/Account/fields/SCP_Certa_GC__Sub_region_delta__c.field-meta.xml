@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCP_Certa_GC__Sub_region_delta__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Territorio</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SCP_Certa_GC__Region_delta__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gobierno amba 1</fullName>
+                <default>false</default>
+                <label>Gobierno amba 1</label>
+            </value>
+            <value>
+                <fullName>Gobierno amba 2</fullName>
+                <default>false</default>
+                <label>Gobierno amba 2</label>
+            </value>
+            <value>
+                <fullName>Gobierno litoral</fullName>
+                <default>false</default>
+                <label>Gobierno litoral</label>
+            </value>
+            <value>
+                <fullName>Gobierno mediterraneo</fullName>
+                <default>false</default>
+                <label>Gobierno mediterraneo</label>
+            </value>
+            <value>
+                <fullName>Industria</fullName>
+                <default>false</default>
+                <label>Industria</label>
+            </value>
+            <value>
+                <fullName>Financias</fullName>
+                <default>false</default>
+                <label>Financias</label>
+            </value>
+            <value>
+                <fullName>Servicios</fullName>
+                <default>false</default>
+                <label>Servicios</label>
+            </value>
+            <value>
+                <fullName>Privado litoral</fullName>
+                <default>false</default>
+                <label>Privado litoral</label>
+            </value>
+            <value>
+                <fullName>Privado mediterraneo</fullName>
+                <default>false</default>
+                <label>Privado mediterraneo</label>
+            </value>
+            <value>
+                <fullName>Finanzas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Finanzas</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Privado</controllingFieldValue>
+            <valueName>Industria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privado</controllingFieldValue>
+            <valueName>Financias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privado</controllingFieldValue>
+            <valueName>Servicios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privado</controllingFieldValue>
+            <valueName>Privado litoral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privado</controllingFieldValue>
+            <valueName>Privado mediterraneo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gobierno</controllingFieldValue>
+            <valueName>Gobierno amba 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gobierno</controllingFieldValue>
+            <valueName>Gobierno amba 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gobierno</controllingFieldValue>
+            <valueName>Gobierno litoral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gobierno</controllingFieldValue>
+            <valueName>Gobierno mediterraneo</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

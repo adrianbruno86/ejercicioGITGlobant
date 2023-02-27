@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Billing_Date__c</fullName>
+    <description>Get the next billing cycle date</description>
+    <externalId>false</externalId>
+    <formula>IF(
+ DAY(TODAY()) &lt; VALUE(TEXT(Billing_Day__c)),
+ TODAY() + VALUE(TEXT(Billing_Day__c)) - DAY(TODAY()),
+ ADDMONTHS(TODAY(),1) - (DAY(TODAY()) - VALUE(TEXT(Billing_Day__c)))
+)</formula>
+    <label>Next Billing Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__BillDeliveryMethod__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Chosen method to receive bills with values such as Paper Billing, eMail and Electronic Statements Online. Part of the billing profile of a customer or billing account.</description>
+    <externalId>false</externalId>
+    <label>Bill Delivery Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Paper Billing</fullName>
+                <default>true</default>
+                <label>Paper Billing</label>
+            </value>
+            <value>
+                <fullName>Electronic Statements Online</fullName>
+                <default>false</default>
+                <label>Electronic Statements Online</label>
+            </value>
+            <value>
+                <fullName>eMail</fullName>
+                <default>false</default>
+                <label>eMail</label>
+            </value>
+            <value>
+                <fullName>Factura Física</fullName>
+                <default>false</default>
+                <label>Factura Física</label>
+            </value>
+            <value>
+                <fullName>Papel Factura Física</fullName>
+                <default>false</default>
+                <label>Papel Factura Física</label>
+            </value>
+            <value>
+                <fullName>Braille Factura Online</fullName>
+                <default>false</default>
+                <label>Braille Factura Online</label>
+            </value>
+            <value>
+                <fullName>SMS Factura Online</fullName>
+                <default>false</default>
+                <label>SMS Factura Online</label>
+            </value>
+            <value>
+                <fullName>Factura Física - Papel</fullName>
+                <default>false</default>
+                <label>Factura Física - Papel</label>
+            </value>
+            <value>
+                <fullName>Factura Física - Braille</fullName>
+                <default>false</default>
+                <label>Factura Física - Braille</label>
+            </value>
+            <value>
+                <fullName>Factura Online - SMS</fullName>
+                <default>false</default>
+                <label>Factura Online - SMS</label>
+            </value>
+            <value>
+                <fullName>Factura Online - Email</fullName>
+                <default>false</default>
+                <label>Factura Online - Email</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edicion_Cuentas_SCP_Global</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND($Profile.Name = &apos;SCP - Global&apos;, NOT(RecordType.Name = &apos;SCP&apos;))</errorConditionFormula>
+    <errorMessage>El perfil SCP - Global solo puede editar las cuentas del tipo SCP</errorMessage>
+</ValidationRule>
