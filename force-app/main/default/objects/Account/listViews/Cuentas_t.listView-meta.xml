@@ -7,7 +7,11 @@
     <columns>ACCOUNT.PHONE1</columns>
     <columns>ACCOUNT.TYPE</columns>
     <columns>CORE.USERS.ALIAS</columns>
-    <columns>vlocity_cmt__Active__c</columns>
     <filterScope>Everything</filterScope>
+    <filters>
+        <field>vlocity_cmt__Active__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
     <label>Cuentas</label>
 </ListView>
